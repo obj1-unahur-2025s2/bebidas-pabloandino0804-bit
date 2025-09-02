@@ -6,7 +6,7 @@ object whisky {
 
 object terere {
   method rendimiento(dosis) {
-    return 0.1 ** dosis
+    return (0.1 ** dosis).max(1)
   }
 }
 
